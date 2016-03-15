@@ -11,3 +11,12 @@ improve your grade.
 A hint to help you on your way. Remember that make uses tabs to indent
 the commands below targets.
 
+And, remember, to use Git you must first load Git:
+
+  module load git
+  
+These may also be useful commands:
+
+  module list
+  
+  module avail
