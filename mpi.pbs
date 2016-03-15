@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -q production
+#PBS -N mpi
+#PBS -l select=4:ncpus=1
+#PBS -l place=free
+#PBS -V
+
+echo -n ">>>> PBS Master compute node is: "
+hostname
+echo ""
+
+cd $PBS_O_WORKDIR
+
+echo ">>>> PBS Assigned these nodes to your job: "
+echo ""
+cat $PBS_NODEFILE
+echo ""
+
+mpirun -np 8 -machinefile $PBS_NODEFILE ./mpi.exe
