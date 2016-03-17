@@ -1,0 +1,14 @@
+>>>> PBS Master compute node is: compute-0-70.local
+
+>>>> PBS Assigned these nodes to your job: 
+
+compute-0-70.ib
+compute-0-70.ib
+compute-0-70.ib
+compute-0-70.ib
+compute-0-70.ib
+compute-0-70.ib
+compute-0-70.ib
+compute-0-70.ib
+
+PI calculated with 10000000000 points = 3.141590 

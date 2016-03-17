@@ -1,6 +1,6 @@
 
 all:
-  mpicc -o mpi mpi.cpp
+	mpicc -o mpi mpi.c
   
 clean:
-  rm mpi
+	rm mpi

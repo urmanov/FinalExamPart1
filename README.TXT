@@ -20,3 +20,15 @@ These may also be useful commands:
   module list
   
   module avail
+
+Comments:
+
+Used your hint and indented the makefile (replaced double spaces with Tab)
+Also, makefile had wrong filename. I replaced mpi.cpp with mpi.c
+
+mpi.pbs file: changed select=4 to 8 to match mpirun command on the bottom which has 8
+last line has mpi.exe, removed ".exe" part
+
+mpi.c: x*x*x changed to x*x
+if statement error, corrected.
+
